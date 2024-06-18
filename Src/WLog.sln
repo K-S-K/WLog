@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLog.API", "WLog.API\WLog.API.csproj", "{68F6FC2A-5A3E-48A0-8587-2F14DC11B415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLog.Data", "WLog.Data\WLog.Data.csproj", "{A397B7A4-2285-43C5-BF2C-7B1312436B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLog.Site", "WLog.Site\WLog.Site.csproj", "{763D5185-2A1D-48E6-A1B1-1A54B61288F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68F6FC2A-5A3E-48A0-8587-2F14DC11B415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F6FC2A-5A3E-48A0-8587-2F14DC11B415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F6FC2A-5A3E-48A0-8587-2F14DC11B415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F6FC2A-5A3E-48A0-8587-2F14DC11B415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A397B7A4-2285-43C5-BF2C-7B1312436B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A397B7A4-2285-43C5-BF2C-7B1312436B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A397B7A4-2285-43C5-BF2C-7B1312436B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A397B7A4-2285-43C5-BF2C-7B1312436B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763D5185-2A1D-48E6-A1B1-1A54B61288F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763D5185-2A1D-48E6-A1B1-1A54B61288F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763D5185-2A1D-48E6-A1B1-1A54B61288F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763D5185-2A1D-48E6-A1B1-1A54B61288F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

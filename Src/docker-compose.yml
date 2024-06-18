@@ -1,0 +1,10 @@
+services:
+  wlog:
+    image: wlog:latest
+    build: .
+    environment:
+      - FILE_PATH=/app/data/sample.txt
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8080:80"
