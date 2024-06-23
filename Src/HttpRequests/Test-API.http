@@ -1,0 +1,8 @@
+## REST Client configuration file
+
+### Configure a variable for the web service base address.
+@base_address = http://localhost:5230/read/
+### Make a GET request to the base address.
+
+
+GET {{base_address}}
